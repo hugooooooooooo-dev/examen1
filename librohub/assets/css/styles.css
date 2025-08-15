@@ -1,0 +1,34 @@
+
+:root{
+  --brand-accent: #5c7cfa;
+  --brand-bg: #f8f9fb;
+}
+
+body{
+  background: var(--brand-bg);
+}
+
+.hero{
+  background: linear-gradient(135deg, #e9eefc, #f7f9ff);
+}
+
+.home-illustration{
+  width: 100%;
+  height: 280px;
+  background: radial-gradient(circle at 30% 30%, var(--brand-accent) 0, transparent 60%),
+              radial-gradient(circle at 70% 60%, #8ec5ff 0, transparent 55%),
+              linear-gradient(180deg, #ffffff 0%, #eef2ff 100%);
+}
+
+.card .btn{
+  border-radius: 999px;
+}
+
+.book-card img{
+  height: 220px;
+  object-fit: cover;
+}
+
+footer{
+  background: #fff;
+}

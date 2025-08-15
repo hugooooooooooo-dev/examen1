@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home - LibroHub</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/styles.css" rel="stylesheet">
+
+  </head>
+  <body>
+    
+<nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">LibroHub</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link " href="perfil.html">Perfil</a></li>
+        <li class="nav-item"><a class="nav-link " href="libros.html">Libros</a></li>
+        <li class="nav-item"><a class="nav-link " href="creditos.html">Créditos</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <header class="hero d-flex align-items-center">
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <h1 class="display-5 fw-bold">Publica y descubre libros con LibroHub</h1>
+            <p class="lead mt-3">Un diseño sencillo para un emprendimiento de publicaciones. Sin base de datos, solo demostración visual con HTML, CSS y Bootstrap.</p>
+            <div class="mt-4">
+              <a href="libros.html" class="btn btn-primary btn-lg me-2">Ver Libros</a>
+              <a href="perfil.html" class="btn btn-outline-secondary btn-lg">Perfil</a>
+            </div>
+          </div>
+          <div class="col-lg-5 d-none d-lg-block">
+            <div class="home-illustration rounded-4 shadow-sm"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Diseño Responsivo</h5>
+                <p class="card-text">Se adapta a celulares, tablets y computadoras gracias a Bootstrap 5.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Estructura Clara</h5>
+                <p class="card-text">Cuatro páginas: Home, Perfil, Libros y Créditos, enlazadas por una barra de navegación.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Contenido de Ejemplo</h5>
+                <p class="card-text">Tarjetas de libros con imágenes de muestra y texto demostrativo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+<footer class="border-top mt-5 py-4">
+  <div class="container text-center small text-muted">
+    <div>© <span id="year"></span> LibroHub. Sitio de muestra para publicación de libros.</div>
+  </div>
+</footer>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
